@@ -1,7 +1,15 @@
 .App {
   text-align: center;
   background-color: bisque;
+  margin: 3%;
+  padding: 2%;
 }
+
+
+.title{
+  font-size: 80px;
+}
+
 
 /* .App-logo {
   height: 40vmin;
