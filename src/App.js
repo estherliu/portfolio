@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import "./App.css";
 import Languages from "./components/Languages/Languages";
+import Tools from "./components/Tools/Tools";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div className="panel">
           <Languages />
+        </div>
+        <div className="panel">
+          <Tools />
         </div>
       </div>
     </div>
