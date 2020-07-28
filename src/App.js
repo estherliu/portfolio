@@ -1,11 +1,23 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
+import "./App.css";
+import Languages from "./components/Languages/Languages";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="title">CHAOYI LIU</h1>
-      <h2>call me Esther if you want</h2>
+    <div className="page">
+      <div className="head">
+        <Header />
+      </div>
+      <div className="panelline">
+        <div className="panel">
+          <Intro />
+        </div>
+        <div className="panel">
+          <Languages />
+        </div>
+      </div>
     </div>
   );
 }
