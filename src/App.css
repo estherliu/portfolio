@@ -1,32 +1,39 @@
+body{
+    margin: 0px;
+}
+
+
 .page{ 
     /* background-image: url("./bg.jpeg");
     background-size: 100% 100%;  */
-    background-color: #983351; 
+    background-color: #EDE6E9; 
 }
 
 .head{
     text-align: center;
-    background-color: #4C0017;
-    margin: 3%;
+    background-color: #A37A8B;
+    /* margin: 3%; */
     padding: 2%;
 }
 
 .subtitle {
     font-family: 'Merienda One', cursive;  
     font-size: 40px;
-    color: #4C0017;
+    color: #A47187;
 }
 
 .panelline{
     display: flex;
     flex-wrap: wrap;
-    margin: 3%;
+    margin: 1%;
+    justify-content: center;
 }
 .panel{
-    background-color: #E498AF;
+    background-color: #DDC9D1;
     padding: 15px;
     margin: 15px;
     transition: all 1s;
+    box-shadow: 4px 4px 10px #4C0017;
 }
 
 .panel:hover{
@@ -36,6 +43,7 @@
 p {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 20px;
+    color: #4C0017;
 }
 
 .faded{
