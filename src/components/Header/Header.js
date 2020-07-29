@@ -1,14 +1,12 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
-    <React.Fragment> 
-      <h1>
-        <span className="title">Chaoyi Liu </span>
-        <span className="annot">-- I'm a software engineer</span>
-      </h1>
-    </React.Fragment>
+    <div className="headcontainer">
+      <div className="title">Chaoyi Liu </div>
+      <div className="annot"> This is a software engineer LOVING technology.</div>
+    </div>
   );
 }
 

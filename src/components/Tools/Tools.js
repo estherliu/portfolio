@@ -1,4 +1,5 @@
 import React from "react";
+import "./Tools.css";
 
 function Tools() {
   return (
@@ -8,12 +9,8 @@ function Tools() {
       </div>
       <hr />
       <div>
-        <p>
-          ASP.NET, React JS, Redux, Django
-        </p>
-        <p>
-          Git, Docker, Redis, MySQL, PostgreSQL
-        </p>
+        <p>ASP.NET, React JS, Redux, Django</p>
+        <p>Git, Docker, Redis, MySQL, PostgreSQL</p>
         <p>Agile, SCRUM planning </p>
         <p>NumPy, Scikit-learn </p>
       </div>

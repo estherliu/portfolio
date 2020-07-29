@@ -1,35 +1,30 @@
 body{
-    margin: 0px;
-}
-
-
-.page{ 
-    /* background-image: url("./bg.jpeg");
-    background-size: 100% 100%;  */
-    background-color: #EDE6E9; 
+    margin: 0px 0px;    
+    background-image: url("./bg.jpeg");
+    background-size: 100% 100%; 
 }
 
 .head{
     text-align: center;
-    background-color: #A37A8B;
-    /* margin: 3%; */
+    margin: 2px;
     padding: 2%;
 }
 
 .subtitle {
     font-family: 'Merienda One', cursive;  
-    font-size: 40px;
-    color: #A47187;
+    font-size: 35px;
+    color: #914b69;
 }
 
 .panelline{
     display: flex;
     flex-wrap: wrap;
-    margin: 1%;
+    margin: 3%;
     justify-content: center;
 }
 .panel{
-    background-color: #DDC9D1;
+    /* background-color: #DDC9D1; */
+    background-color: rgba(235, 230, 230, 0.5);
     padding: 15px;
     margin: 15px;
     transition: all 1s;
@@ -37,18 +32,26 @@ body{
 }
 
 .panel:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 p {
-    font-family: 'Nanum Gothic', sans-serif;
+    /* font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Handlee', cursive; */
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     color: #4C0017;
 }
 
 .faded{
     opacity: 50%;
-    font-size: 15px;
+    font-size: 18px;
 }
 
+
+.navbar{
+    background-color: rgba(87, 69, 69, 0.5);
+    color: white;
+    font-size: 30px;
+}
 
