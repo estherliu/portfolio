@@ -1,7 +1,7 @@
 body{
     margin: 0px 0px;    
-    background-image: url("./bg.jpeg");
-    background-size: 100% 100%; 
+    background: url("./bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .head{
@@ -23,8 +23,7 @@ body{
     justify-content: center;
 }
 .panel{
-    /* background-color: #DDC9D1; */
-    background-color: rgba(235, 230, 230, 0.5);
+    background-color: rgba(235, 230, 230, 0.8);
     padding: 15px;
     margin: 15px;
     transition: all 1s;
@@ -49,9 +48,4 @@ p {
 }
 
 
-.navbar{
-    background-color: rgba(87, 69, 69, 0.5);
-    color: white;
-    font-size: 30px;
-}
 

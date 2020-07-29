@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Grid container>
-        <Grid item xs={2} className="navbar">
+        <Grid item xs={2}>
           <MyNavbar />
         </Grid>
         <Grid item xs={10}>
