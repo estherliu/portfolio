@@ -1,6 +1,7 @@
 .title{
   font-size: 100px;
-  font-family: 'Merienda One', cursive; 
+  /* font-family: 'Merienda One', cursive;  */
+  font-family: 'Lora', serif;
   /* color: #83395b;  */
   transition: all 2s;
   text-align: left;
@@ -16,7 +17,8 @@
 .annot  {
   /* font-family: 'Handlee', cursive; */
   /* font-family: 'Merienda One', cursive;  */
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Lora', serif;
   font-size: 30px;
   font-style: italic;
   color: white;

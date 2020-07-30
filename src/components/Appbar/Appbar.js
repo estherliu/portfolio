@@ -47,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
     borderColor: "white",
     fontSize: 15,
     fontStyle: "bold",
+    fontFamily: "Lora"
   },
   icon: {
     color: "white",
