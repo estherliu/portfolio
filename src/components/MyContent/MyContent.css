@@ -24,19 +24,24 @@
 }
 
 .subtitle {
-    font-family: 'Merienda One', cursive;  
+    /* font-family: 'Merienda One', cursive;   */
+    font-family: 'Playfair Display', serif;
     font-size: 35px;
+    font-style: italic;
     /* color: #914b69; */
     color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 p {
     /* font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Handlee', cursive; */
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Lora', serif;
     font-size: 20px;
     /* color: #4C0017; */
     color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 .faded{
