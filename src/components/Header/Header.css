@@ -4,12 +4,12 @@
   font-size: 100px;
   font-family: 'Merienda One', cursive; 
   color: #83395b; 
-  transition: all 1s;
+  transition: all 2s;
   text-align: left;
 }
 
 .title:hover{
-  color: #c07f93;
+  color: #0c0b0b;
 }
 
   
@@ -17,12 +17,12 @@
   /* font-family: 'Handlee', cursive; */
   font-family: 'Merienda One', cursive; 
   font-size: 30px;
-  color: #e6c5d2;
+  color: #f1eaed;
   transition: all 1s;
   text-align: right;
 }
 
 .annot:hover{
-  color: #83395b; 
+  transform: rotate(20deg)
 }
   

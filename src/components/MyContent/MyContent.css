@@ -4,20 +4,15 @@
     padding: 2%;
 }
 
-.subtitle {
-    font-family: 'Merienda One', cursive;  
-    font-size: 35px;
-    color: #914b69;
-}
-
 .panelline{
     display: flex;
     flex-wrap: wrap;
     margin: 3%;
-    justify-content: center;
+    justify-content: space-between;
 }
 .panel{
-    background-color: rgba(235, 230, 230, 0.8);
+    /* background-color: rgba(235, 230, 230, 0.8); */
+    background-color: rgba(12, 11, 11, 0.5);
     padding: 15px;
     margin: 15px;
     transition: all 1s;
@@ -28,12 +23,20 @@
     transform: scale(1.1);
 }
 
+.subtitle {
+    font-family: 'Merienda One', cursive;  
+    font-size: 35px;
+    /* color: #914b69; */
+    color: white;
+}
+
 p {
     /* font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Handlee', cursive; */
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    color: #4C0017;
+    /* color: #4C0017; */
+    color: white;
 }
 
 .faded{
